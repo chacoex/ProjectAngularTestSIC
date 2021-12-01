@@ -1,0 +1,10 @@
+
+    <p> page: {{ frase.meta.pagination.page }}</p>
+    <p> Users:</p>
+    <div *ngFor="let name of frase.data">
+        <p> Id: {{ name.id }}</p>
+        <p> Name: {{ name.name }}</p>
+        <p> Email: {{ name.email }}</p>
+        <p> Gender: {{ name.gender }}</p>
+        <p> Estatus: {{ name.status }}</p>
+    </div>
